@@ -20,7 +20,7 @@ app.add_middleware(
 
 # Load pre-trained models
 face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
-emotion_model = load_model('C:/Users/ASUS/Desktop/model.h5')
+emotion_model = load_model('model.h5')
 
 emotion_labels = ['Angry', 'Disgust', 'Fear', 'Happy', 'Sad', 'Surprise', 'Neutral']
 
